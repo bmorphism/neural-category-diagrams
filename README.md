@@ -1,6 +1,6 @@
 # Neural Category Theory Diagrams
 
-This repository contains a collection of diagrams exploring the intersection of neural architectures, category theory, and brain-computer interfaces through the lens of categorical relationships and morphisms.
+This repository contains a collection of diagrams exploring the intersection of neural architectures, category theory, brain-computer interfaces, and MCP (Model Context Protocol) interactions through the lens of categorical relationships and morphisms.
 
 ## Contents
 
@@ -19,22 +19,43 @@ This repository contains a collection of diagrams exploring the intersection of 
 - Ontological Presheaf Structure
 - Categorical Evolution
 
+### 4. [MCP Action Diagrams](mcp-actions.md)
+- Complete MCP Ecosystem Overview
+- Service Categorization
+- Tool Relationships
+
+### 5. [MCP Data Flow Patterns](mcp-patterns.md)
+- Data Flow Architecture
+- Operation Patterns
+- Composition Rules
+
 ## Diagram Types
 
-The diagrams in this repository use Mermaid.js for visualization and are organized into three main categories:
+The diagrams in this repository use multiple visualization techniques:
 
-1. **Structural Diagrams**: Representing the architecture and connectivity patterns of neural networks and their categorical interpretations.
+1. **Mermaid.js Diagrams**: For categorical and structural representations
+   - Neural network architectures
+   - Category theory relationships
+   - State space visualizations
 
-2. **Flow Diagrams**: Illustrating the movement of information and transformations between different categorical spaces.
-
-3. **State Space Diagrams**: Visualizing the evolution and relationships of states in various categorical contexts.
+2. **ASCII Art Diagrams**: For system and operational views
+   - MCP action relationships
+   - Data flow patterns
+   - Service interactions
 
 ## Key Concepts
 
-- **Categories**: Abstract containers for objects and morphisms that satisfy composition and identity laws
+### Category Theory Concepts
+- **Categories**: Abstract containers for objects and morphisms
 - **Functors**: Structure-preserving mappings between categories
-- **Natural Transformations**: Systematic ways to transform between functors
-- **Presheaves**: Contravariant functors that help model complex relationships
+- **Natural Transformations**: Systematic transformations between functors
+- **Presheaves**: Contravariant functors for modeling relationships
+
+### MCP Concepts
+- **Tools**: Executable actions provided by MCP servers
+- **Resources**: Data sources exposed through MCP
+- **Servers**: Service providers implementing the MCP protocol
+- **Composition**: Patterns for combining MCP operations
 
 ## Theoretical Framework
 
@@ -43,21 +64,36 @@ The diagrams combine concepts from:
 - Neural Network Architecture
 - Brain-Computer Interfaces
 - Ontological Engineering
+- Model Context Protocol
 
-Each diagram type emphasizes different aspects of these intersecting domains while maintaining categorical rigor.
+## MCP Integration Patterns
+
+1. **Discovery -> Processing -> Storage**
+   - Finding relevant data
+   - Processing and transformation
+   - Persistent storage
+
+2. **External -> Transform -> Integration**
+   - External service interaction
+   - Data transformation
+   - System integration
+
+3. **Analysis -> Synthesis -> Persistence**
+   - Data analysis
+   - Result synthesis
+   - State preservation
 
 ## Usage
 
-These diagrams can be viewed directly on GitHub, which supports Mermaid.js rendering. They can be used for:
-- Understanding neural architecture design
-- Analyzing categorical relationships in neural systems
-- Exploring ontological structures in neural contexts
-- Studying BCI system design through a categorical lens
+These diagrams can be viewed directly on GitHub:
+- Mermaid.js diagrams render automatically
+- ASCII art diagrams display in fixed-width font
+- Each diagram type emphasizes different aspects of the system
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit pull requests with:
 - New diagram types
-- Improvements to existing diagrams
-- Additional categorical perspectives
+- Additional MCP patterns
+- Improved visualizations
 - Documentation enhancements
